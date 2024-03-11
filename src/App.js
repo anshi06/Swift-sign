@@ -1,5 +1,8 @@
 import { useRef, useState } from "react";
 import { ChromePicker } from "react-color";
+import Navigation from "./components/Navigation";
+import styles from "./styles/app.module.css"
+import HeroSection from "./components/HeroSection";
 
 function App() {
   const canvasRef = useRef(null);
@@ -90,11 +93,10 @@ function App() {
   };
 
   return (
-    <div>
-      <h1>
-        Swift Sign
-      </h1>
-      <div>
+    <div className={styles.app}>
+      <Navigation />
+      <HeroSection/>
+      {/* <div>
         <canvas
           ref={canvasRef}
           width={600}
@@ -159,7 +161,7 @@ function App() {
             Clear
           </button>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }
