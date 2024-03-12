@@ -5,6 +5,7 @@
   grid-template-columns: 1fr 1fr;
   gap: 8.2rem;
   align-items: center;
+  margin-bottom: 2rem;
 }
 
 .heroDescription {

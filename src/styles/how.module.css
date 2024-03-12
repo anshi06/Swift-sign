@@ -1,0 +1,62 @@
+.how {
+  margin-bottom: 2rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.heading {
+  align-self: flex-start;
+  padding: 0 4rem;
+}
+
+.stepImg {
+  width: 5rem;
+}
+
+.steps {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  gap: 2rem;
+  padding: 0 4rem;
+}
+
+.step {
+  display: flex;
+  gap: 2rem;
+}
+
+.stepTextBox {
+  background-color: #bacfea;
+  border-radius: 2rem;
+  padding: 1.5rem;
+  box-shadow: 0rem 0.3rem 0.5rem #9290c3;
+}
+
+.stepDescription {
+  font-size: 1.2rem;
+  color: #333;
+  font-weight: 400;
+  letter-spacing: -0.5px;
+}
+
+.stepImgBox {
+  align-self: center;
+}
+
+.iconLog {
+  width: 2rem;
+  background-color: #fff;
+  border-radius: 1rem;
+  padding: 2px;
+}
+
+.stepHeading {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5rem;
+}

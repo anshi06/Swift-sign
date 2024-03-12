@@ -4,6 +4,12 @@
   box-sizing: border-box;
 }
 
+*:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.8rem rgba(250, 248, 246, 0.5);
+}
+
 .app {
+  overflow: hidden;
   font-family:serif, sans-serif;
 }
