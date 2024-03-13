@@ -5,6 +5,7 @@ import styles from "./styles/app.module.css";
 import HeroSection from "./components/HeroSection";
 import HowItWorks from "./components/HowItWorks";
 import Inspiration from "./components/Inspiration";
+import Footer from "./components/Footer";
 
 function App() {
   const canvasRef = useRef(null);
@@ -100,6 +101,7 @@ function App() {
       <HeroSection />
       <HowItWorks />
       <Inspiration />
+      <Footer/>
       {/* <div>
         <canvas
           ref={canvasRef}

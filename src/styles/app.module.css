@@ -2,15 +2,15 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 *:focus {
   outline: none;
-  box-shadow: 0 0 0 0.8rem rgba(250, 248, 246, 0.5);
+  box-shadow: 0 0 0 0.5rem rgba(250, 248, 246, 0.5);
 }
 
 .app {
   overflow: hidden;
   font-family:serif, sans-serif;
-  scroll-behavior: smooth;
 }

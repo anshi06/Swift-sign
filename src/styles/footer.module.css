@@ -1,0 +1,52 @@
+.footer {
+  background-color: #1b1a55;
+  padding: 1.5rem 4rem;
+}
+
+.footerLogoImg {
+  width: 2rem;
+}
+
+.footerLogo {
+  display: flex;
+  font-style: italic;
+  align-items: center;
+  text-decoration: none;
+}
+
+.footerLogo h1 {
+  color: #fff;
+}
+
+.socialLinks {
+  list-style: none;
+  display: flex;
+  gap: 3rem;
+}
+
+.socialIcon {
+  width: 2rem;
+}
+
+.copyright {
+  color: #fff;
+}
+
+.logoCol {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.footerNav {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+
+.footerLink {
+  text-decoration: none;
+  color: #fff;
+}
