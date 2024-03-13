@@ -1,9 +1,10 @@
 import { useRef, useState } from "react";
 import { ChromePicker } from "react-color";
 import Navigation from "./components/Navigation";
-import styles from "./styles/app.module.css"
+import styles from "./styles/app.module.css";
 import HeroSection from "./components/HeroSection";
 import HowItWorks from "./components/HowItWorks";
+import Inspiration from "./components/Inspiration";
 
 function App() {
   const canvasRef = useRef(null);
@@ -96,8 +97,9 @@ function App() {
   return (
     <div className={styles.app}>
       <Navigation />
-      <HeroSection/>
-      <HowItWorks/>
+      <HeroSection />
+      <HowItWorks />
+      <Inspiration />
       {/* <div>
         <canvas
           ref={canvasRef}

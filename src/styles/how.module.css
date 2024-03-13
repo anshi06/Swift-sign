@@ -1,5 +1,5 @@
 .how {
-  margin-bottom: 2rem;
+  margin-bottom: 4rem;
 }
 
 .container {
@@ -18,16 +18,11 @@
 }
 
 .steps {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  display: flex;
   align-items: center;
+  justify-content: space-between;
   gap: 2rem;
   padding: 0 4rem;
-}
-
-.step {
-  display: flex;
-  gap: 2rem;
 }
 
 .stepTextBox {
