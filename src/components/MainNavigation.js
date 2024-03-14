@@ -1,7 +1,7 @@
 import penImg from "../Images/feather-pen.png";
 import styles from "../styles/navigation.module.css";
 
-export default function Navigation() {
+export default function MainNavigation() {
   return (
     <>
       <header className={styles.header}>
@@ -15,18 +15,8 @@ export default function Navigation() {
         <nav className={styles.mainNav}>
           <ul className={styles.mainNavList}>
             <li>
-              <a className={styles.mainNavLink} href="#how">
-                How it works
-              </a>
-            </li>
-            <li>
-              <a className={styles.mainNavLink} href="#inspirations">
-                Inspirations
-              </a>
-            </li>
-            <li>
-              <a className={`${styles.mainNavLink} ${styles.navBtn}`} href="/sign-generate">
-                Try for free
+              <a className={styles.mainNavLink} href="/">
+                &#x25c0; Go Back
               </a>
             </li>
           </ul>

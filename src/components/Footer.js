@@ -1,4 +1,3 @@
-import penImg from "../Images/feather-pen.png";
 import styles from "../styles/footer.module.css";
 import Insta from "../Images/instagram.png";
 import twitter from "../Images/twitter.png";
@@ -10,7 +9,7 @@ export default function Footer() {
       <div className={styles.logoCol}>
         <ul className={styles.socialLinks}>
           <li>
-            <a class="footer-link" href="#">
+            <a className={styles.footerLink} href="/">
               <img
                 src={Insta}
                 className={styles.socialIcon}
@@ -19,7 +18,7 @@ export default function Footer() {
             </a>
           </li>
           <li>
-            <a class="footer-link" href="#">
+            <a className={styles.footerLink} href="/">
               <img
                 src={linkedIn}
                 className={styles.socialIcon}
@@ -28,7 +27,7 @@ export default function Footer() {
             </a>
           </li>
           <li>
-            <a class="footer-link" href="#">
+            <a className={styles.footerLink} href="/">
               <img
                 src={twitter}
                 className={styles.socialIcon}
@@ -40,12 +39,12 @@ export default function Footer() {
 
         <ul className={styles.footerNav}>
           <li>
-            <a className={styles.footerLink} href="#">
+            <a className={styles.footerLink} href="/">
               Terms of use
             </a>
           </li>
           <li>
-            <a className={styles.footerLink} href="#">
+            <a className={styles.footerLink} href="/">
               Privacy Policy
             </a>
           </li>
