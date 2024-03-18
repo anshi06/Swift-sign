@@ -9,8 +9,8 @@ function App() {
     <div className={styles.app}>
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<LandingPage />} />
-          <Route path="/sign-generate" element={<MainPage />} />
+          <Route path="/Swift-sign/" element={<LandingPage />} />
+          <Route path="/Swift-sign/sign-generate" element={<MainPage />} />
         </Routes>
       </BrowserRouter>
       <Footer />
