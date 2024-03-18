@@ -9,8 +9,8 @@ function App() {
     <div className={styles.app}>
       <BrowserRouter>
         <Routes>
-          <Route path="/" Component={LandingPage} />
-          <Route path="/sign-generate" Component={MainPage} />
+          <Route path="/" element={LandingPage} />
+          <Route path="/sign-generate" element={MainPage} />
         </Routes>
       </BrowserRouter>
       <Footer />
