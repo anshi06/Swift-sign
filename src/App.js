@@ -7,7 +7,7 @@ import { HashRouter as Router, Route, Routes } from "react-router-dom";
 function App() {
   return (
     <div className={styles.app}>
-      <Router basename="/Swift-sign">
+      <Router>
         <Routes>
           <Route path="/" element={<LandingPage />} />
           <Route path="/generate" element={<MainPage />} />
