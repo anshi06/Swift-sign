@@ -25,7 +25,7 @@ export default function Navigation() {
               </a>
             </li>
             <li>
-              <a className={`${styles.mainNavLink} ${styles.navBtn}`} href="/Swift-sign/generate">
+              <a className={`${styles.mainNavLink} ${styles.navBtn}`} href="/generate">
                 Try for free
               </a>
             </li>

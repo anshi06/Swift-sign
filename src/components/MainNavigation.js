@@ -15,7 +15,7 @@ export default function MainNavigation() {
         <nav className={styles.mainNav}>
           <ul className={styles.mainNavList}>
             <li>
-              <a className={styles.mainNavLink} href="/Swift-sign/">
+              <a className={styles.mainNavLink} href="/">
                 &#x25c0; Go Back
               </a>
             </li>

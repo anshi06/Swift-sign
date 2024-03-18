@@ -25,7 +25,7 @@ export default function HeroSection() {
             creation. Make your mark with unmatched style and flair.
           </p>
           <a
-            href="/Swift-sign/generate"
+            href="/generate"
             className={`${designs.btn} ${designs.btnFull} ${designs.marginRgt}`}>
             Try now
           </a>
