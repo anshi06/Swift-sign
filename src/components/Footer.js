@@ -9,7 +9,7 @@ export default function Footer() {
       <div className={styles.logoCol}>
         <ul className={styles.socialLinks}>
           <li>
-            <a className={styles.footerLink} href="/">
+            <a className={styles.footerLink} href="/Swift-sign/">
               <img
                 src={Insta}
                 className={styles.socialIcon}
@@ -18,7 +18,7 @@ export default function Footer() {
             </a>
           </li>
           <li>
-            <a className={styles.footerLink} href="/">
+            <a className={styles.footerLink} href="/Swift-sign/">
               <img
                 src={linkedIn}
                 className={styles.socialIcon}
@@ -27,7 +27,7 @@ export default function Footer() {
             </a>
           </li>
           <li>
-            <a className={styles.footerLink} href="/">
+            <a className={styles.footerLink} href="/Swift-sign/">
               <img
                 src={twitter}
                 className={styles.socialIcon}
@@ -39,12 +39,12 @@ export default function Footer() {
 
         <ul className={styles.footerNav}>
           <li>
-            <a className={styles.footerLink} href="/">
+            <a className={styles.footerLink} href="/Swift-sign/">
               Terms of use
             </a>
           </li>
           <li>
-            <a className={styles.footerLink} href="/">
+            <a className={styles.footerLink} href="/Swift-sign/">
               Privacy Policy
             </a>
           </li>

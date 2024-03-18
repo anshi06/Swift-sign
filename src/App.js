@@ -10,7 +10,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/Swift-sign/" element={<LandingPage />} />
-          <Route path="/Swift-sign/sign-generate" element={<MainPage />} />
+          <Route path="/Swift-sign/generate" element={<MainPage />} />
         </Routes>
       </BrowserRouter>
       <Footer />
