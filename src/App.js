@@ -7,10 +7,10 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 function App() {
   return (
     <div className={styles.app}>
-      <BrowserRouter>
+      <BrowserRouter basename="/Swift-sign">
         <Routes>
-          <Route path="/Swift-sign/" element={<LandingPage />} />
-          <Route path="/Swift-sign/generate" element={<MainPage />} />
+          <Route path="/" element={<LandingPage />} />
+          <Route path="/generate" element={<MainPage />} />
         </Routes>
       </BrowserRouter>
       <Footer />
