@@ -28,10 +28,6 @@ Welcome to the Digital Sign Generator App! This simple web application allows us
 
 ### Note: This app is not currently responsive but will be made responsive in the future.
 
-### Contributing
-
-Contributions are welcome! If you find any issues or have suggestions for improvements, please feel free to open an issue or create a pull request.
-
 ### Acknowledgements
 
 This app was created as a project to brush up on basic CSS skills and explore HTML Canvas functionality.
